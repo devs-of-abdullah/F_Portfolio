@@ -2,6 +2,7 @@ import Box from "@mui/material/Box";
 import Avatar from "./HomeAvatar";
 import HomeDescription from "./HomeDescription";
 import SocialIcons from "./SocialIcons";
+import Footer from "../Util/Footer";
 
 
 export default function HomePage() {
@@ -30,7 +31,7 @@ export default function HomePage() {
         </div>
       </Box>
 
-    
+  
    
     </Box>
   );

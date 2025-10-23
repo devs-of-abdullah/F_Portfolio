@@ -4,13 +4,14 @@ import ContactPage from "./Contact/ContactPage";
 import BlogsPage from "./Blogs/BlogsPage";
 import Projects from "./Projects/ProjectsPage";
 import ToggleMenu from "./Home/ToggleMenu";
-import Footer from "./Util/Footer";
 import { Routes, Route } from "react-router-dom";
 import NotFound from "./Util/NotFound";
 
-function App() {
+export default function App() {
   return (
+    
     <>
+    
       <ToggleMenu />
       <Routes>
         <Route path="*" element={<NotFound />} />
@@ -21,9 +22,8 @@ function App() {
         <Route path="/Skills" element={<SkillsPage />} />
         <Route path="/Contact" element={<ContactPage />} />
       </Routes>
-      <Footer />
     </>
   );
 }
 
-export default App;
+
