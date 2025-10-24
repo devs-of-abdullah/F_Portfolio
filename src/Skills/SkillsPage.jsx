@@ -1,7 +1,60 @@
-export default function SkillsPage(){
-    return(
-        <>
+import Skill from "./Skill";
+
+export default function SkillsPage() {
+  const FrontSkills = [
+    "HTML","CSS","Java Script","Type Script","Tailwind","React JS","Next JS","Material UI"
+  ];
+    const BackSkills = [
+      "C#",".Net Core","win Forms","Rest API","Ado.Net","EF Core", "MS SQL ","T SQL","Clean Code"
+    ];
+     const ToolsSkills = [
+        "Git","Azure","Netlify",
+     ];
+
+  return (
+    <>
+      <h3
+        style={{
+          textAlign: "center",
+          fontSize: 40,
+          marginTop: 10,
+          
+     
+        }}
+      >
         Skills
-        </>
-    )
+      </h3>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          gap: "10px",
+          alignContent: "center",
+            marginBottom:100,
+          height: "25vh",
+        
+        }}
+      >
+
+        {FrontSkills.map((skill, index) => (
+          <Skill key={index} SkillName={skill} />
+        ))}
+  
+             {BackSkills.map((skill, index) => (
+          <Skill key={index} SkillName={skill} />
+        ))}
+       
+           {ToolsSkills.map((skill, index) => (
+          <Skill key={index} SkillName={skill} />
+        ))} 
+        
+       
+       
+        
+        
+
+      </div>
+    </>
+  );
 }

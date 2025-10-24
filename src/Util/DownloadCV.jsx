@@ -5,12 +5,19 @@ import { Button } from "@mui/material";
 export default function DownloadCV() {
   return (
     <Button
-        variant="outlined"
+      variant="outlined"
       color="primary"
-      href="public\CV.pdf"
-        download="public\CV.pdf"
-      startIcon={<DownloadIcon />} 
-      sx={{border:"3px solid", borderRadius:5,mt:3, width:300, borderColor:"text.primary", color:"text.primary",}}  
+      href="public\AhmetAbdullahCV.pdf"
+      download="public\AhmetAbdullahCV.pdf"
+      startIcon={<DownloadIcon />}
+      sx={{
+        border: "3px solid",
+        borderRadius: 5,
+        mt: 3,
+        width: 300,
+        borderColor: "text.primary",
+        color: "text.primary",
+      }}
     >
       Download CV
     </Button>

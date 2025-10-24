@@ -5,7 +5,7 @@ import {
   List,
   ListItem,
   ListItemText,
-  Typography,
+  
   Box,
   Divider,
 } from "@mui/material";
@@ -19,7 +19,6 @@ const menuItems = [
   { text: "Home", path: "/" },
   { text: "Blogs", path: "/blogs" },
   { text: "Projects", path: "/projects" },
-  { text: "Skills", path: "/skills" },
   { text: "Contact", path: "/contact" },
 ];
 
@@ -93,8 +92,7 @@ export default function ToggleMenu() {
             sx={{
               justifyContent:"center",
              display:"flex", flexDirection:"row",
-              borderTop: "1px solid",
-              borderColor: "divider",
+              borderTop: "1px solid",   
             }}
           >
             <IconButton onClick={colorMode.toggleColorMode} color="inherit"  >
@@ -104,12 +102,12 @@ export default function ToggleMenu() {
                 <Brightness4 fontSize="large" />
               )}
             </IconButton>
-            <Typography variant="body2" sx={{p:2}}>
-              {theme.palette.mode === "dark" ? "Dark Mode" : "Light Mode"}
-            </Typography>
+            
+             <Footer />
           </Box>
-              <Footer />
-        </Box>
+           
+        </Box>  
+       
       </Drawer>
     </>
   );

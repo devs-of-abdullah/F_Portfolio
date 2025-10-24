@@ -5,7 +5,7 @@ export default function Avatar() {
   return (
     <Box
       component="img"
-      src="src\assets\AhmetStandingNearPcTables.jpg"
+      src="public\assets\AhmetWithMedal.jpg"
       alt="Portfolio Hero"
       sx={{
         width: { xs: "280px", md: "400px", lg: "500px" },
