@@ -1,4 +1,4 @@
-import { Scale } from "@mui/icons-material";
+
 import Box from "@mui/material/Box";
 
 export default function Avatar() {

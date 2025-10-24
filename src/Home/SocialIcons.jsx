@@ -10,6 +10,7 @@ export default function SocialIcons() {
         display: "flex",
         gap: 1.5,
         justifyContent: { xs: "center" },
+        mt: 2,
       }}
     >
       <IconButton

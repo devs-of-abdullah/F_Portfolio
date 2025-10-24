@@ -1,18 +1,16 @@
 import Box from "@mui/material/Box";
 import Avatar from "./HomeAvatar";
 import HomeDescription from "./HomeDescription";
-import SocialIcons from "./SocialIcons";
-import Footer from "../Util/Footer";
+
 
 
 export default function HomePage() {
   return (
-    <Box
+    <>
+      <Box
       sx={{
         display: "flex",
         flexDirection: "column",
-        
-     
       }}
     >
       <Box
@@ -27,12 +25,14 @@ export default function HomePage() {
         <Avatar />
         <div className="HomePageDescription">
           <HomeDescription />
-          <SocialIcons />
-        </div>
+        </div> 
+       
       </Box>
 
-  
    
     </Box>
+
+    </>
+  
   );
 }

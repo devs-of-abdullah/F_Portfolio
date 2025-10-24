@@ -14,7 +14,7 @@ import { Brightness4, Brightness7 } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { useTheme } from "@mui/material/styles";
 import { ColorModeContext } from "../Util/ThemeContext";
-
+import Footer from "../Util/Footer";
 const menuItems = [
   { text: "Home", path: "/" },
   { text: "Blogs", path: "/blogs" },
@@ -108,7 +108,7 @@ export default function ToggleMenu() {
               {theme.palette.mode === "dark" ? "Dark Mode" : "Light Mode"}
             </Typography>
           </Box>
-
+              <Footer />
         </Box>
       </Drawer>
     </>
