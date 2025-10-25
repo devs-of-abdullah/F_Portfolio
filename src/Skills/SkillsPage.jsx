@@ -17,7 +17,7 @@ export default function SkillsPage() {
         style={{
           textAlign: "center",
           fontSize: 40,
-            marginBottom:50
+           
      
         }}
       >
@@ -31,7 +31,7 @@ export default function SkillsPage() {
           gap: "10px",
           alignContent: "center",
             marginBottom:100,
-          height: "25vh",
+         
         
         }}
       >

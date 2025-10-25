@@ -5,7 +5,6 @@ import {
   List,
   ListItem,
   ListItemText,
-  
   Box,
   Divider,
 } from "@mui/material";
@@ -19,7 +18,6 @@ const menuItems = [
   { text: "Home", path: "/" },
   { text: "Blogs", path: "/blogs" },
   { text: "Projects", path: "/projects" },
-  { text: "Contact", path: "/contact" },
 ];
 
 export default function ToggleMenu() {

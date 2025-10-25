@@ -1,5 +1,4 @@
 import HomePage from "./Home/HomePage";
-import ContactPage from "./Contact/ContactPage";
 import BlogsPage from "./Blogs/BlogsPage";
 import Projects from "./Projects/ProjectsPage";
 import ToggleMenu from "./Home/ToggleMenu";
@@ -18,7 +17,6 @@ export default function App() {
         <Route path="/Home" element={<HomePage />} />
         <Route path="/Blogs" element={<BlogsPage />} />
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/Contact" element={<ContactPage />} />
       </Routes>
      
     </>
