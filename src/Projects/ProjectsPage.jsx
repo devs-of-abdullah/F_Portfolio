@@ -6,7 +6,7 @@ export default function ProjectsPage() {
     {
       name: "Bank System App",
       description: "Will be published in November 2025 || Made With c# Sql React",
-      image: "/public/assets/Soon.png",
+      image: "/assets/Soon.png",
       FrontendLink: " ",
       BackendLink: " ",
       liveLink: " ",
@@ -14,7 +14,7 @@ export default function ProjectsPage() {
     {
       name: "E Commerce App",
       description: "Will be published in December 2025 || Made With c# Sql Next JS",
-      image: "/public/assets/Soon.png",
+      image: "/assets/Soon.png",
       FrontendLink: " ",
       BackendLink: " ",
       liveLink: " ",
@@ -22,7 +22,7 @@ export default function ProjectsPage() {
     {
       name: "E Commerce App",
       description: "Will be published in January 2026 || Made With c# Sql Next JS",
-      image: "/public/assets/Soon.png",
+      image: "/assets/Soon.png",
       FrontendLink: " ",
       BackendLink: " ",
       liveLink: " ",

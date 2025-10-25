@@ -1,9 +1,7 @@
 import Box from "@mui/material/Box";
 import Avatar from "./HomeAvatar";
 import HomeDescription from "./HomeDescription";
-import BlogsPage from "../Blogs/BlogsPage"
 import ProjectsPage from "../Projects/ProjectsPage";
-import ContactPage from "../Contact/ContactPage"
 import SkillsPage from "../Skills/SkillsPage";
 export default function HomePage() {
   return (

@@ -7,8 +7,8 @@ export default function DownloadCV() {
     <Button
       variant="outlined"
       color="primary"
-      href="public\AhmetAbdullahCV.pdf"
-      download="public\AhmetAbdullahCV.pdf"
+      href="/assets/AhmetAbdullahCV.pdf"
+      download="AhmetAbdullahCV.pdf"
       startIcon={<DownloadIcon />}
       sx={{
         border: "3px solid",
