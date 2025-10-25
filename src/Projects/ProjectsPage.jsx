@@ -20,7 +20,7 @@ export default function ProjectsPage() {
       liveLink: " ",
     },
     {
-      name: "E Commerce App",
+      name: "Chat App",
       description: "Will be published in January 2026 || Made With c# Sql Next JS",
       image: "/assets/Soon.png",
       FrontendLink: " ",
