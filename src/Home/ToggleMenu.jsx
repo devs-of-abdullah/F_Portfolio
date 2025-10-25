@@ -47,7 +47,7 @@ export default function ToggleMenu() {
         <Box
           sx={{
             width: 250,
-            height: "100%",
+            height: "100vh",
             display: "flex",
             flexDirection: "column",
             justifyContent: "space-between",

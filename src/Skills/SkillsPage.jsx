@@ -8,7 +8,7 @@ export default function SkillsPage() {
       "C#",".Net Core","win Forms","Rest API","Ado.Net","EF Core", "MS SQL ","T SQL","Clean Code"
     ];
      const ToolsSkills = [
-        "Git","Azure","Netlify",
+        "Git","Azure","Netlify","Render","Super Base"
      ];
 
   return (
@@ -17,8 +17,7 @@ export default function SkillsPage() {
         style={{
           textAlign: "center",
           fontSize: 40,
-          marginTop: 10,
-          
+            marginBottom:50
      
         }}
       >
