@@ -5,7 +5,7 @@ export default function SkillsPage() {
     "HTML","CSS","Java Script","Type Script","Tailwind","React JS","Next JS","Material UI"
   ];
     const BackSkills = [
-      "C#",".Net Core","win Forms","Rest API","Ado.Net","EF Core", "MS SQL ","T SQL","Clean Code"
+      "C#",".Net Core","win Forms","Rest API","Ado.Net","EF Core", "MS SQL ","T SQL","Clean Code","3 Tier Architechure", "Signal R","Solid Principles",
     ];
      const ToolsSkills = [
         "Git","Azure","Netlify","Render","Super Base"
@@ -17,8 +17,6 @@ export default function SkillsPage() {
         style={{
           textAlign: "center",
           fontSize: 40,
-           
-     
         }}
       >
         Skills
@@ -30,29 +28,18 @@ export default function SkillsPage() {
           justifyContent: "center",
           gap: "10px",
           alignContent: "center",
-            marginBottom:100,
-         
-        
+            marginBottom:100, 
         }}
       >
-
         {FrontSkills.map((skill, index) => (
           <Skill key={index} SkillName={skill} />
         ))}
-  
              {BackSkills.map((skill, index) => (
           <Skill key={index} SkillName={skill} />
         ))}
-       
            {ToolsSkills.map((skill, index) => (
           <Skill key={index} SkillName={skill} />
         ))} 
-        
-       
-       
-        
-        
-
       </div>
     </>
   );
