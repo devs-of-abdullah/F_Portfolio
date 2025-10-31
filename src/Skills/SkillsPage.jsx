@@ -5,7 +5,7 @@ export default function SkillsPage() {
     "HTML","CSS","Java Script","Type Script","Tailwind","React JS","Next JS","Material UI"
   ];
     const BackSkills = [
-      "C#",".Net Core","win Forms","Rest API","Ado.Net","EF Core", "MS SQL ","T SQL","Clean Code","3 Tier Architechure", "Signal R","Solid Principles",
+      "C#",".Net Core","win Forms","Rest API","Ado.Net","EF Core", "MS SQL ","T SQL","Clean Code","N-Tier Architechure", "Signal R","Solid Principles","JWT","Postgre SQL"
     ];
      const ToolsSkills = [
         "Git","Azure","Netlify","Render","Super Base"
