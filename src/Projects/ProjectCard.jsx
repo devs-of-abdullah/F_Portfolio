@@ -52,12 +52,13 @@ export default function ProjectCard({ name, shortDescription, image }) {
           sx={{
             color: "text.secondary",
             fontSize: 15,
-            border: "1.5px solid",
+            border: "2px solid",
             borderRadius: 2,
+           
             px: 2,
             "&:hover": {
               transform: "scale(1.05)",
-              borderColor: "primary.main",
+             
             },
           }}
         >
