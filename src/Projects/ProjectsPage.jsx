@@ -11,9 +11,9 @@ export const projects = [
       "A full-stack banking system with user accounts, transactions, and admin panel. Backend built with ASP.NET Core, frontend with React, and database using SQL Server.",
     projectLink: " ",
     liveLink: " ",
-    backLink:
-      "https://github.com/devs-of-abdullah/Portfolio_Banksystem_Backend",
-    frontLink: " ",
+    backLink:"https://github.com/devs-of-abdullah/Portfolio_Banksystem_Backend",
+    frontLink: "https://github.com/devs-of-abdullah/f_bank_system",
+
   },
   {
     name: "E Commerce App",

@@ -8,7 +8,7 @@ export default function SkillsPage() {
       "C#",".Net Core","win Forms","Rest API","Ado.Net","EF Core", "MS SQL ","T SQL","Clean Code","N-Tier Architechure", "Signal R","Solid Principles","JWT","Postgre SQL"
     ];
      const ToolsSkills = [
-        "Git","Azure","Netlify","Render","Super Base"
+        "Git","Netlify","Render","Super Base"
      ];
 
   return (
