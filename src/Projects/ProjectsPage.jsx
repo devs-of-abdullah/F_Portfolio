@@ -5,24 +5,21 @@ export const projects = [
   {
     name: "Bank System App",
     shortDescription:
-      "Will be published in November 2025 || Made With C#, SQL, React",
-    image: "/assets/Soon.png",
+      "full-stack bank system & Made With C#, SQL, React",
+    image: "/public/assets/BankSystemAppSS.png",
     longDescription:
-      "A full-stack banking system with user accounts, transactions, and admin panel. Backend built with ASP.NET Core, frontend with React, and database using SQL Server.",
-    projectLink: " ",
-    liveLink: " ",
-    backLink:"https://github.com/devs-of-abdullah/Portfolio_Banksystem_Backend",
+      "Abdullah Bank System is a full-stack Bank Management System built with C# .NET API and React + Material UI. It allows users to register, log in, view their balance, transfer money, and manage their accounts. Main features include JWT authentication, real-time balance tracking, money transfer between accounts, user profile management and a fully responsive UI.The frontend is developed with React, Material UI, and deployed on Netlify. The backend uses ASP.NET Core Web API, Entity Framework Core, and SQL Server. Future plans include adding an admin dashboard, card and payment simulations,transactions history and multi-language features.",
+    liveLink: "https://abdullahbanksystem.netlify.app/",
+    backLink:
+      "https://github.com/devs-of-abdullah/Portfolio_Banksystem_Backend",
     frontLink: "https://github.com/devs-of-abdullah/f_bank_system",
-
   },
   {
     name: "E Commerce App",
     shortDescription:
-      "Will be published in December 2025 || Made With C#, SQL, Next.js",
-    image: "/assets/Soon.png",
-    longDescription:
-      "An e-commerce platform with product listings, cart, checkout, and admin dashboard. Backend in ASP.NET Core, frontend in Next.js.",
-    projectLink: " ",
+      "fullstack e commerce|| Made With C#, SQL, react",
+    image: "/public/assets/Soon.png",
+    longDescription:"",
     liveLink: " ",
     backLink: " ",
     frontLink: " ",
@@ -34,7 +31,7 @@ export const projects = [
     image: "/assets/Soon.png",
     longDescription:
       "A real-time chat app using SignalR and Next.js with JWT authentication, message persistence, and user management.",
-    projectLink: " ",
+
     liveLink: " ",
     backLink: " ",
     frontLink: " ",
