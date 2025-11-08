@@ -2,7 +2,7 @@ import Skill from "./Skill";
 
 export default function SkillsPage() {
   const FrontSkills = [
-    "HTML","CSS","Java Script","Type Script","Tailwind","React JS","Material UI",
+    "HTML","CSS","Java Script","Type Script","Tailwind","React JS","Next JS","Material UI",
   ];
     const BackSkills = [
       "C#",".Net Core","win Forms","Rest API","Windows Services","Ado.Net","EF Core", "MS SQL ","T SQL","Clean Code","N-Tier Architechure", "Signal R","Solid Principles","JWT","Postgre SQL"
