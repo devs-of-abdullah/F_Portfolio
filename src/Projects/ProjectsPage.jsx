@@ -27,7 +27,7 @@ export const projects = [
   {
     name: "Chat App",
     shortDescription:
-      "" Made With C#, SQL, Next.js",
+      " Made With C#, SQL, Next.js",
     image: "/assets/Soon.png",
     longDescription:
       "A real-time chat app using SignalR and Next.js with JWT authentication, message persistence, and user management.",
